@@ -1,0 +1,3 @@
+settings
+*.dep
+EWARM/CortexM4-CRC
