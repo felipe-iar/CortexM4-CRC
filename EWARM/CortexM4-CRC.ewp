@@ -669,7 +669,7 @@
             <archiveVersion>1</archiveVersion>
             <data>
                 <prebuild></prebuild>
-                <postbuild>$TOOLKIT_DIR$/bin/ielftool --fill 0xFF;__checksum_begin-__checksum_end+3 --checksum __checksum:4,crc32:Li,0xFFFFFFFF;__checksum_begin-__checksum_end+3 --verbose $TARGET_PATH$ $TARGET_PATH$</postbuild>
+                <postbuild>$TOOLKIT_DIR$/bin/ielftool --fill "0xFF;__checksum_begin-__checksum_end+3" --checksum "__checksum:4,crc32:Li,0xFFFFFFFF;__checksum_begin-__checksum_end+3" --verbose $TARGET_PATH$ $TARGET_PATH$</postbuild>
             </data>
         </settings>
         <settings>
